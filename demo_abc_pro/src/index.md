@@ -1,6 +1,6 @@
 hola Mundo!
 
-CAMBIO DE LA NUEVA RAMA: new rama
+CAMBIO DE LA NUEVA RAMA: new rama ejemplo
 
 HACE casi 2.000 años, Jesús dio su vida por nosotros, y gracias a eso tenemos
 la oportunidad de vivir para siempre. La noche antes de morir estableció una
@@ -17,3 +17,4 @@ recuerdan lo mucho que Jehová se interesa por la gente. “No desea que ninguno
 sino que todos lleguen a arrepentirse” (2 Ped. 3:9). Nosotros demostramos que amamos al prójimo al seguir
 esforzándonos de buena gana por que las buenas noticias lleguen a su corazón (Mat. 22:39).
 w22.01 16 párrs. 10-12
+FIN
