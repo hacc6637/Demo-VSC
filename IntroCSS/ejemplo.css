@@ -1,0 +1,183 @@
+/* body {
+  color: salmon;
+} */
+
+#titulo_ppal {
+  color: salmon;
+}
+
+/* p {
+  color: seagreen;
+} */
+
+/* .texto {
+  color: seagreen;
+} */
+
+p.texto {
+  color: seagreen;
+}
+
+p.especial {
+  color: darkmagenta;
+}
+
+div p {
+  color: chocolate;
+}
+
+div h2,
+div h3 {
+  color: fuchsia;
+}
+
+* {
+  font-size: 24px;
+  /* color: black; */
+}
+.color {
+  color: #00ff00;
+}
+
+.colors {
+  color: rgb(25, 255, 210);
+}
+.especial {
+  border: darkgreen dashed;
+  /* los border disponobles que hay:
+  dashed
+  solid
+  dotted
+  double
+  groove
+  ridge
+  inset
+  outsed
+  outset
+  none
+  hidden
+  ; */
+}
+
+.texto {
+  border-style: outset;
+  border-color: crimson;
+  border-radius: 5px;
+  border-width: 5px; /* esta el em, rem, pc, cm, mm, ichetc para medir el width*/
+}
+
+#fondo {
+  background-color: darkgreen;
+
+  /*el cuarto valor es la transpariencia s entre o y 1*/
+  background-color: rgba(10, 25, 10, 0.3);
+
+  /*otra forma de lograr efectos parecidos,pero no con transparencia
+   si no con opacidad tambien entre 0 y 1*/
+  background-color: rgba(20, 220, 2);
+  opacity: 0.7;
+
+  background-image: url(ceroplagasAmable.jpeg);
+  height: 377px;
+  background-size: auto;
+  background-size: cover;
+  background-size: contain;
+  background-size: 119px 177px;
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-x; */
+  background-repeat: repeat-y;
+  background-position: right top;
+
+  /* otra forma de hacerlo mas compacto es  */
+  background: cyan url(ceroplagas\ ventaja2.jpeg) repeat-x center bottom / 119px
+    177px;
+}
+
+.margen {
+  background-color: blue;
+  margin: 15px 5px 25px 30px;
+  padding: 30px 25px 5px 15px;
+  border: solid 2px black;
+  width: 110px;
+  height: 100px;
+  overflow: visible;
+  overflow: hidden;
+  overflow: scroll;
+  outline: 3px solid #00ff00;
+}
+
+.text {
+  font-family: "Times New Roman", Times, serif;
+  /* otra forma de hacerlo, con fuentes de google fonts, 
+  se escoge un tipo  de fuente y se pega el enlace
+   en el head del html y escribimos*/
+  font-family: "Alkatra", Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-align: right;
+  text-align: justify;
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-shadow: 4pt 5px 5px #604250;
+}
+
+a:link {
+  color: blueviolet;
+}
+
+a:visited {
+  color: brown;
+}
+a:hover {
+  color: cyan;
+}
+a:active {
+  color: darkmagenta;
+}
+
+ul {
+  background-color: darkgreen;
+  list-style-type: none;
+  list-style-type: georgian;
+  list-style-type: lower-roman;
+  list-style-type: square;
+  list-style-type: lower-latin;
+  /* padding-left: 0px; */
+  /* list-style-position: inside; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: #aaa 1px solid;
+  padding: 5px;
+}
+
+th {
+  background-color: tomato;
+  color: white;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tr:hover {
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  /* display: none; */
+  /* visibility: hidden; */
+  max-width: 300px;
+  background-color: #00ff00;
+}
+
+.inLine {
+  display: inline;
+}
